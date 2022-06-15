@@ -21,7 +21,7 @@ public class Alumno extends Persona {
 		return T1;
 	}
 	public void setT1(int t1) {
-		T1 = t1;
+		T1 = t1;		
 	}
 	public int getT2() {
 		return T2;
@@ -44,13 +44,20 @@ public class Alumno extends Persona {
 	}
 	@Override
 	public String toString() {
-		return "Alumno [Num_Matricula=" + Num_Matricula + ", T1=" + T1 + ", T2=" + T2 + ", T3=" + T3 + "]";
+		return "ESTA ES LA SOBREESCRITURA ";
 	}
 	
-	public double media() {
+	public String media(int notas) {
 		
-		double result = (T1+T2+T3)/3;
+		double notaMedia = notas/3;
+		String result="";
 		
+		if (notaMedia>=5) {
+			result="Aprobado";
+			
+		}else {
+			result="Suspenso";
+		}
 		
 		return result;
 	}

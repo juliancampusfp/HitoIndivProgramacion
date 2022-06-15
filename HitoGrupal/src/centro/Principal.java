@@ -6,9 +6,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+
+
 public class Principal {
  
+	
 	public static void main(String[] args) {
+		
+		int notas=0;
+		
+		Alumno alum = new Alumno("pepe","pepe","pepe", 1231,3,4,5);
 		
 		// Paso 1: Cargar el driver
 		try {
@@ -86,6 +93,13 @@ public class Principal {
 				System.out.print(rs.getInt("T2"));
 				System.out.print(" - "); 
 				System.out.print(rs.getInt("T3"));
+				notas=rs.getInt("T1")+rs.getInt("T2")+rs.getInt("T3");
+				System.out.print(" - "); 
+				System.out.println(alum.toString());
+				System.out.print(" - "); 
+				System.out.println(alum.media(notas)); 
+					
+				
 				System.out.println(); // Retorno de carro
 			}
 		} catch (SQLException e) {
