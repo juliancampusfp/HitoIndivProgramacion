@@ -1,0 +1,10 @@
+1.¿Como se llama nuestra profesora de Programación y de Entornos?; a) Aitor; b) Amelia; c) Diego; b;
+2.¿Que programa utilizamos para crear proyectos y trabajos de Java?; a) VisualStudio; b) JavaScript; c) Eclipse; c;
+3.¿Como se llama el centro de Estudios en el que estamos estudiando actualmente?;a) Universidad Europea;b) CampusFP;c) Universidad Complutense; b;
+4.¿Como se llama el grado superior que estamos cursando?; a) DAM; b) TES; c) ASIR; a;
+5.¿Que asignatura nos da clase Diego?; a) Programación; b) Lenguaje Marcas; c) Base de Datos; c;
+6.¿En que planta está nuestra clase?; a) Primera; b) Segunda; c) Tercera; a;
+7.¿Cuantos años se estudia el grado superior de DAM?; a) Tres Años; b) Un Año; c) Dos Años; c;
+8.¿De que marca es el coche de nuestro profesor Diego?; a) Seat; b) BMW; c) Mercedes; b;
+9.¿Cuantos alumnos hay en la clase de DAM?; a) 17 ; b) 14 ; c) 20 ; a;
+10.¿Como se llama el delegado de clase?; a) Paco; b) Aitor; c) Jose; b;
