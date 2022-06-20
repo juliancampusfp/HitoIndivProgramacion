@@ -1,1 +1,1 @@
-El objetivo de nuestro proyecto grupal es gestionar una base de datos de un centro educativo y mediante la aplicacion de java podemos acceder a dicha información
+
